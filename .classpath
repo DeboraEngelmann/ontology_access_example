@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry excluding="**/*.asl" kind="src" path="src/agt"/>
+	<classpathentry excluding="*.ptl" kind="src" path="src/int"/>
+	<classpathentry excluding="*.xml" kind="src" path="src/org"/>
+	<classpathentry kind="src" path="src/env"/>
+	<classpathentry kind="src" path="src/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JaCaMo"/>
+	<classpathentry kind="lib" path="lib/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry kind="lib" path="lib/caffeine-2.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-rdf-api-0.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/error_prone_annotations-2.0.18.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/guava-22.0.jar"/>
+	<classpathentry kind="lib" path="lib/hppcrt-0.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-osgi-4.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-nio-4.4.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-osgi-4.4.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.10.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.10.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.10.jar"/>
+	<classpathentry kind="lib" path="lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="lib/jcl-over-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="lib/jsonld-java-0.12.0.jar"/>
+	<classpathentry kind="lib" path="lib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-0.9.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-0.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-api-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-apibinding-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-compatibility-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-distribution-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-impl-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-oboformat-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-parsers-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-rio-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/owlapi-tools-5.1.12.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-model-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-api-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-binary-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-datatypes-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-jsonld-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-languages-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-n3-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-nquads-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-ntriples-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-rdfjson-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-rdfxml-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-trig-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-trix-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-rio-turtle-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/rdf4j-util-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j13-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/xz-1.6.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

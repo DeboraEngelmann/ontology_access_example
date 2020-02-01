@@ -1,0 +1,4043 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2020/0/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2020/0/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2020/0/untitled-ontology-5"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acompanhante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administrador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ala_Especialidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambulatorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atendimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloqueado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classificação_De_Risco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conceito_Temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corredor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dermatologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnóstico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doença"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eletivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Em_Tratamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enfermaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enfermeiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estável"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmácia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faxineiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funcionário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generalista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gênero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hoje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intervalo_De_Tempo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isolamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laudo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Livre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muito_Urgente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mulher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Médico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mês"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Móvel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Não_Urgente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocupado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oncologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paciente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pessoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pneumologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pouco_Urgente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prescrição"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prontuario_Do_Paciente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puerpério"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quarto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recepcionista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recepção"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restrição"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Segurança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sintoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sujo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tratamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traumatologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Técnico_De_Enfermagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UTI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unidade_Internacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urgente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetativo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acompanha"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acontece-em-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aloca"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analisa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apresenta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apresenta-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atende"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atende-a-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#avalia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consulta-com"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consulta-o"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desocupa-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnostica-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dá-alta-para"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está-em"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está-em-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está-em-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faz-dispensação-de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#higieniza-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#indica-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-pode-ter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-da-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-cuidados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-isolamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-do-gênero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-puerpério"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medica-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#move-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observa-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ocupa-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pode-ter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precisa-atendimento-do-tipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preenche-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prescreve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-do-gênero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-puerpério"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem-um-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-adequado-para"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-alocado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-analisado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-associado-a-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-atendido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-atribuído-a-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-classificado-como"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-consumido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-do-gênero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-feita-em-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-medicado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-movido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-observado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-puerpério"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-responsável-por"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tem-idade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adolescente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adulto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clínico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Convulsão"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuidados-Intensivos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuidados-Mínimos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuidados-Semi-Intensivos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Câncer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dermatologia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desmaio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eletivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emergência"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfermeiro1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfermeiro2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Febre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feminino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indefinido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Infantil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Internação"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isolamento-social"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Longa-Permanência"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masculino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neurologia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oncologia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada-cardio-respiratória"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada-cardíaca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada-respiratória"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pediatria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pós-Aborto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pós-Parto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suspeita-de-fraturas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Traumatologia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Urgente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203c"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acompanhante"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Administrador"/>
+        <Class IRI="#Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agora"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ala_Especialidade"/>
+        <Class IRI="#Unidade_Internacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambulatorial"/>
+        <Class IRI="#Atendimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ano"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloqueado"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cama"/>
+        <Class IRI="#Móvel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coma"/>
+        <Class IRI="#Estado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corredor"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dermatologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dia"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnóstico"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eletivo"/>
+        <Class IRI="#Ambulatorial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Em_Tratamento"/>
+        <Class IRI="#Estado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergência"/>
+        <Class IRI="#Ambulatorial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encaminhamento"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enfermaria"/>
+        <Class IRI="#Unidade_Internacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enfermeiro"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialista"/>
+        <Class IRI="#Médico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estável"/>
+        <Class IRI="#Estado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faxineiro"/>
+        <Class IRI="#Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funcionário"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generalista"/>
+        <Class IRI="#Médico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grave"/>
+        <Class IRI="#Estado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gênero"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hoje"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homem"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hora"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idade"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internação"/>
+        <Class IRI="#Atendimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intervalo_De_Tempo"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isolamento"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laudo"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leito"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limpo"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Livre"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maca"/>
+        <Class IRI="#Móvel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muito_Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mulher"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Médico"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mês"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Não_Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocupado"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oncologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paciente"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatra"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatria"/>
+        <Class IRI="#Unidade_Internacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pneumologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pouco_Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prescrição"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profissional_De_Saúde"/>
+        <Class IRI="#Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prontuario_Do_Paciente"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puerpério"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quarto"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recepcionista"/>
+        <Class IRI="#Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recepção"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residente"/>
+        <Class IRI="#Médico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sala"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Segurança"/>
+        <Class IRI="#Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semana"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sujo"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempo_De_Permanência"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_De_Atendimento"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <Class IRI="#Restrição"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traumatologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Técnico_De_Enfermagem"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UCE"/>
+        <Class IRI="#Unidade_Internacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UTI"/>
+        <Class IRI="#Unidade_Internacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unidade_Internacao"/>
+        <Class IRI="#Local"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetativo"/>
+        <Class IRI="#Estado"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Acompanhante"/>
+        <NamedIndividual IRI="#Acompanhante1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acompanhante"/>
+        <NamedIndividual IRI="#Acompanhante2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acompanhante"/>
+        <NamedIndividual IRI="#Acompanhante3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acompanhante"/>
+        <NamedIndividual IRI="#Acompanhante4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acompanhante"/>
+        <NamedIndividual IRI="#Acompanhante5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idade"/>
+        <NamedIndividual IRI="#Adolescente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idade"/>
+        <NamedIndividual IRI="#Adulto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Atendimento"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Atendimento"/>
+        <NamedIndividual IRI="#Clínico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Convulsão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <NamedIndividual IRI="#Cuidados-Intensivos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <NamedIndividual IRI="#Cuidados-Mínimos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <NamedIndividual IRI="#Cuidados-Semi-Intensivos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Doença"/>
+        <NamedIndividual IRI="#Câncer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Dermatologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Desmaio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Dor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Encaminhamento"/>
+        <NamedIndividual IRI="#Eletivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Encaminhamento"/>
+        <NamedIndividual IRI="#Emergência"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enfermeiro"/>
+        <NamedIndividual IRI="#Enfermeiro1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enfermeiro"/>
+        <NamedIndividual IRI="#Enfermeiro2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Febre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gênero"/>
+        <NamedIndividual IRI="#Feminino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo_De_Permanência"/>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gênero"/>
+        <NamedIndividual IRI="#Indefinido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idade"/>
+        <NamedIndividual IRI="#Infantil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atendimento"/>
+        <NamedIndividual IRI="#Internação"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Isolamento"/>
+        <NamedIndividual IRI="#Isolamento-social"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo_De_Permanência"/>
+        <NamedIndividual IRI="#Longa-Permanência"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gênero"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generalista"/>
+        <NamedIndividual IRI="#Médico1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Residente"/>
+        <NamedIndividual IRI="#Médico10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cardiologista"/>
+        <NamedIndividual IRI="#Médico2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dermatologista"/>
+        <NamedIndividual IRI="#Médico3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neurologista"/>
+        <NamedIndividual IRI="#Médico4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oncologista"/>
+        <NamedIndividual IRI="#Médico5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pediatra"/>
+        <NamedIndividual IRI="#Médico6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pneumologista"/>
+        <NamedIndividual IRI="#Médico7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Radiologista"/>
+        <NamedIndividual IRI="#Médico8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Traumatologista"/>
+        <NamedIndividual IRI="#Médico9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Neurologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Oncologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paciente"/>
+        <NamedIndividual IRI="#Paciente9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Parada-cardio-respiratória"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Parada-cardíaca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Parada-respiratória"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Pediatria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Puerpério"/>
+        <NamedIndividual IRI="#Pós-Aborto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Puerpério"/>
+        <NamedIndividual IRI="#Pós-Parto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sintoma"/>
+        <NamedIndividual IRI="#Suspeita-de-fraturas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Traumatologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classificação_De_Risco"/>
+        <NamedIndividual IRI="#Urgente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quarto"/>
+        <NamedIndividual IRI="#101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#101a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#101b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quarto"/>
+        <NamedIndividual IRI="#102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#102a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#102b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quarto"/>
+        <NamedIndividual IRI="#103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#103a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#103b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quarto"/>
+        <NamedIndividual IRI="#201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#201a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#201b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quarto"/>
+        <NamedIndividual IRI="#202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#202a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#202b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quarto"/>
+        <NamedIndividual IRI="#203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#203a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#203b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leito"/>
+        <NamedIndividual IRI="#203c"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Suspeita-de-fraturas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#101a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tem-um-atendimento"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Emergência"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Adulto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Cuidados-Semi-Intensivos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Isolamento-social"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <NamedIndividual IRI="#Paciente2"/>
+        <NamedIndividual IRI="#103b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <NamedIndividual IRI="#Paciente2"/>
+        <NamedIndividual IRI="#Dermatologia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <NamedIndividual IRI="#Paciente2"/>
+        <NamedIndividual IRI="#Cuidados-Mínimos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <NamedIndividual IRI="#Paciente2"/>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta"/>
+        <NamedIndividual IRI="#Paciente3"/>
+        <NamedIndividual IRI="#Parada-cardíaca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-classificado-como"/>
+        <NamedIndividual IRI="#Paciente3"/>
+        <NamedIndividual IRI="#Urgente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <NamedIndividual IRI="#Paciente5"/>
+        <NamedIndividual IRI="#202a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <NamedIndividual IRI="#Paciente5"/>
+        <NamedIndividual IRI="#Traumatologia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <NamedIndividual IRI="#Paciente5"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <NamedIndividual IRI="#Paciente5"/>
+        <NamedIndividual IRI="#Cuidados-Mínimos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <NamedIndividual IRI="#Paciente8"/>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <NamedIndividual IRI="#Paciente8"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <NamedIndividual IRI="#Paciente8"/>
+        <NamedIndividual IRI="#Cuidados-Intensivos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+        <NamedIndividual IRI="#Paciente8"/>
+        <NamedIndividual IRI="#Emergência"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <NamedIndividual IRI="#Paciente9"/>
+        <NamedIndividual IRI="#201b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <NamedIndividual IRI="#Paciente9"/>
+        <NamedIndividual IRI="#Neurologia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <NamedIndividual IRI="#Paciente9"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+        <NamedIndividual IRI="#Paciente9"/>
+        <NamedIndividual IRI="#Emergência"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#101a"/>
+        <NamedIndividual IRI="#101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#101b"/>
+        <NamedIndividual IRI="#101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#102a"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#102b"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#103a"/>
+        <NamedIndividual IRI="#103"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#103b"/>
+        <NamedIndividual IRI="#103"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#201a"/>
+        <NamedIndividual IRI="#201"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#201b"/>
+        <NamedIndividual IRI="#201"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#202a"/>
+        <NamedIndividual IRI="#202"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#202b"/>
+        <NamedIndividual IRI="#202"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#203a"/>
+        <NamedIndividual IRI="#203"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#203b"/>
+        <NamedIndividual IRI="#203"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#203c"/>
+        <NamedIndividual IRI="#203"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">56</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#acompanha"/>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aloca"/>
+        <ObjectProperty IRI="#é-alocado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#analisa"/>
+        <ObjectProperty IRI="#é-analisado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#apresenta"/>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#atende"/>
+        <ObjectProperty IRI="#é-atendido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#avalia"/>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consome"/>
+        <ObjectProperty IRI="#é-consumido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consulta-com"/>
+        <ObjectProperty IRI="#consulta-o"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#desocupa-um"/>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#diagnostica-um"/>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#dá-alta-para"/>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#higieniza-um"/>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#medica-um"/>
+        <ObjectProperty IRI="#é-medicado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#move-um"/>
+        <ObjectProperty IRI="#é-movido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#observa-um"/>
+        <ObjectProperty IRI="#é-observado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#preenche-um"/>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#prescreve"/>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#é-responsável-por"/>
+        <ObjectProperty IRI="#é-responsável-por"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acompanha"/>
+        <Class IRI="#Acompanhante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acontece-em-um"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aloca"/>
+        <Class IRI="#Enfermeiro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analisa"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apresenta"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apresenta-uma"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atende"/>
+        <Class IRI="#Funcionário"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atende-a-especialidade"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#avalia"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+        <Class IRI="#Sintoma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consome"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consulta-com"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consulta-o"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#desocupa-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diagnostica-um"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dá-alta-para"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está-em"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está-em-um"/>
+        <Class IRI="#Móvel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está-em-uma"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faz-dispensação-de"/>
+        <Class IRI="#Farmácia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#higieniza-um"/>
+        <Class IRI="#Faxineiro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#indica-um"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-pode-ter"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-da-especialidade"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-atendimento"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-cuidados"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-isolamento"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-do-gênero"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-puerpério"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#medica-um"/>
+        <Class IRI="#Técnico_De_Enfermagem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#move-um"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observa-um"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pode-ter"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui-uma"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precisa-atendimento-do-tipo"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preenche-um"/>
+        <Class IRI="#Funcionário"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prescreve"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-do-gênero"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-puerpério"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem-um-atendimento"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem-uma"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-adequado-para"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-alocado-por"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-analisado-por"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+        <Class IRI="#Sintoma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-associado-a-uma"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-atendido-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-atribuído-a-um"/>
+        <Class IRI="#Estado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+        <Class IRI="#Doença"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-classificado-como"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-consumido-por"/>
+        <Class IRI="#Medicação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-do-gênero"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-feita-em-um"/>
+        <Class IRI="#Internação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+        <Class IRI="#Local"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-medicado-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-movido-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-observado-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+        <Class IRI="#Medicação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-puerpério"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-responsável-por"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acompanha"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acontece-em-um"/>
+        <Class IRI="#Conceito_Temporal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aloca"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#analisa"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apresenta"/>
+        <Class IRI="#Sintoma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apresenta-uma"/>
+        <Class IRI="#Doença"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atende"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atende-a-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#avalia"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+        <Class IRI="#Doença"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consome"/>
+        <Class IRI="#Medicação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consulta-com"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consulta-o"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desocupa-um"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diagnostica-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dá-alta-para"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está-em"/>
+        <Class IRI="#Quarto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está-em-um"/>
+        <Class IRI="#Local"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está-em-uma"/>
+        <Class IRI="#Unidade_Internacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faz-dispensação-de"/>
+        <Class IRI="#Medicação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#higieniza-um"/>
+        <Class IRI="#Local"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#indica-um"/>
+        <Class IRI="#Tratamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-pode-ter"/>
+        <Class IRI="#Restrição"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-da-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+        <Class IRI="#Idade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-atendimento"/>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-cuidados"/>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+        <Class IRI="#Encaminhamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-isolamento"/>
+        <Class IRI="#Isolamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-do-gênero"/>
+        <Class IRI="#Gênero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-puerpério"/>
+        <Class IRI="#Puerpério"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#medica-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observa-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pode-ter"/>
+        <Class IRI="#Restrição"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui-uma"/>
+        <Class IRI="#Situação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precisa-atendimento-do-tipo"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preenche-um"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prescreve"/>
+        <Class IRI="#Medicação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+        <Class IRI="#Idade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+        <Class IRI="#Encaminhamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+        <Class IRI="#Isolamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-do-gênero"/>
+        <Class IRI="#Gênero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-puerpério"/>
+        <Class IRI="#Puerpério"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem-um-atendimento"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem-uma"/>
+        <Class IRI="#Cama"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+        <Class IRI="#Acompanhante"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-adequado-para"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-alocado-por"/>
+        <Class IRI="#Enfermeiro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-analisado-por"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-associado-a-uma"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-atendido-por"/>
+        <Class IRI="#Funcionário"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-atribuído-a-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+        <Class IRI="#Sintoma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-classificado-como"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-consumido-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <Class IRI="#Idade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+        <Class IRI="#Encaminhamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+        <Class IRI="#Isolamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-do-gênero"/>
+        <Class IRI="#Gênero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-feita-em-um"/>
+        <Class IRI="#Leito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+        <Class IRI="#Faxineiro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-medicado-por"/>
+        <Class IRI="#Técnico_De_Enfermagem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-movido-por"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-observado-por"/>
+        <Class IRI="#Profissional_De_Saúde"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+        <Class IRI="#Funcionário"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-puerpério"/>
+        <Class IRI="#Puerpério"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+        <Class IRI="#Médico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-responsável-por"/>
+        <Class IRI="#Paciente"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tem-idade"/>
+        <Class IRI="#Pessoa"/>
+    </DataPropertyDomain>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o paciente é homem então é do gênero masculino</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Homem"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Masculino"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter a mesma especialidade do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-especialidade"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Es"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-especialidade"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Es"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de faixa etária do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Id"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Id"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de atendimento do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-atendimento"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-atendimento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de cuidados do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-cuidados"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Co"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-cuidados"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Co"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de encaminhamento do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#En"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#En"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente de isolamento ocupa um leito então esse leito passa a ter o mesmo tipo de isolamento do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-isolamento"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Is"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-isolamento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Is"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo tempo de permanência do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-permanêcia"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Pa"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo gênero do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Ge"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Ge"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de puerpério do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-puerpério"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Pu"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-puerpério"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui uma especialidade, o quarto possui a mesma especialidade</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-especialidade"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Es"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Es"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui uma faixa etária, o quarto possui o mesma faixa etária</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Id"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Id"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um tipo de atendimento, o quarto possui o mesmo tipo de atendimento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-atendimento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um tipo de cuidados, o quarto possui o mesmo tipo de cuidados</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-cuidados"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Co"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Co"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um tipo de encaminhamento, o quarto possui o mesmo tipo de encaminhamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#En"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#En"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um tipo de isolamento, o quarto possui o mesmo tipo de isolamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-isolamento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Is"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Is"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um tempo de permanência, o quarto possui o mesmo tempo de permanência</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pa"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Pa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um gênero, o quarto possui o mesmo gênero</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Ge"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Ge"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um leito do quarto possui um tipo de puerpério, o quarto possui o mesmo tipo de puerpério</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-puerpério"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pu"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-puerpério"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Pu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui uma especialidade, os leitos que estão no quarto possuem a mesma especialidade</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Es"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-especialidade"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Es"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui uma faixa etária, os leitos que estão no quarto possuem a mesma faixa etária</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Id"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Id"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um tipo de atendimento, os leitos que estão no quarto possuem o mesmo tipo de atendimento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-atendimento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um tipo de cuidados, os leitos que estão no quarto possuem o mesmo tipo de cuidados</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Co"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-cuidados"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Co"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um tipo de encaminhamento, os leitos que estão no quarto possuem o mesmo tipo de encaminhamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#En"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#En"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um tipo de isolamento, os leitos que estão no quarto possuem o mesmo tipo de isolamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Is"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-isolamento"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Is"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um tempo de permanência, os leitos que estão no quarto possuem o mesmo tempo de permanência</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Pa"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um gênero, os leitos que estão no quarto possuem o mesmo gênero</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Ge"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Ge"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o quarto possui um tipo de puerpério, os leitos que estão no quarto possuem o mesmo tipo de puerpério</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Leito"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Quarto"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-puerpério"/>
+                <Variable IRI="urn:swrl:var#Qu"/>
+                <Variable IRI="urn:swrl:var#Pu"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-puerpério"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o paciente é mulher então é do gênero feminino</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Mulher"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-do-gênero"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Feminino"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um Paciente recebe alta de um Médico então ele desocupa o leito que estava ocupando e o leito é desocupado por ele.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#recebe-alta-do"/>
+                <Variable IRI="urn:swrl:var#Me"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#desocupa-um"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-desocupado-por-um"/>
+                <Variable IRI="urn:swrl:var#Le"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o tipo do atendimento do paciente é um então o tipo de encaminhamento é o mesmo</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tem-um-atendimento"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o paciente for classificado como urgente então ele vai direto para a internação</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-classificado-como"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Urgente"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#precisa-atendimento-do-tipo"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Internação"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um Paciente tem idade maior que 11 e menor que 18 anos então ele é da faixa etária Adolescente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#tem-idade"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Ie"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#Ie"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#Ie"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Adolescente"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um Paciente tem mais do que 17 anos então ele é da faixa etária Adulto.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#tem-idade"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Ie"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#Ie"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Adulto"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se um Paciente tem menos do que 12 anos então ele é da faixa etária Infantil</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paciente"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#tem-idade"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Ie"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#Ie"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <NamedIndividual IRI="#Infantil"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Acompanhante</IRI>
+        <Literal>Pessoa que acompanha o paciente em seu atendimento, normalmente familiar ou amigo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Administrador</IRI>
+        <Literal>Funcionário que faz a administração do hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agora</IRI>
+        <Literal>Momento atual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ala_Especialidade</IRI>
+        <Literal>Unidades de internação específicas para determinada especialidades, por exemplo: geriatria, pediatria, neurologia, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ambulatorial</IRI>
+        <Literal>Atendimento que ocorre via agendamento prévio ou por necessidade emergencial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ano</IRI>
+        <Literal>Ano em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Atendimento</IRI>
+        <Literal>Refere-se aos tipos de atendimentos que o paciente pode ter em um hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bloqueado</IRI>
+        <Literal>Leito que não pode ser utilizado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cama</IRI>
+        <Literal>Acomodação hospitalar normalmente alocada dentro de um quarto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cardiologista</IRI>
+        <Literal>Médico profissional responsável por se ocupar do diagnóstico e do tratamento de doenças e disfunções relacionadas com o sistema cardiovascular e da cirurgia cardiovascular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Classificação_De_Risco</IRI>
+        <Literal>Classificação dada ao paciente no início do atendimento, muito usada no setor de emergência, para priorizar pacientes mais graves. Baseada no protocolo de Manchester.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coma</IRI>
+        <Literal>Paciente que está sem condções de permanecer acordado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conceito_Temporal</IRI>
+        <Literal>Conceitos realcionados a temporalidade dos acontecimentos relacionados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Corredor</IRI>
+        <Literal>Passagem que serve de ligação entre as salas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data</IRI>
+        <Literal>Data em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dermatologista</IRI>
+        <Literal>Médico especialista no diagnóstico, tratamento e prevenção de doenças da pele, pelos, mucosas, cabelos e unhas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dia</IRI>
+        <Literal>Dia em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diagnóstico</IRI>
+        <Literal>Documento gerado pelo médico referente á identificação de uma eventual doença.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Documento</IRI>
+        <Literal>Documentos gerados durante ou após o atendimento de um paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doença</IRI>
+        <Literal>Alteração biológica do estado de saúde de uma pessoa, manifestada por um conjunto de sintomas perceptíveis ou não; enfermidade, mal, moléstia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eletivo</IRI>
+        <Literal>Atendimentos agendados previamente, como uma consulta ou uma cirurgia que não precisará de internação inicialmente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Em_Tratamento</IRI>
+        <Literal>Paciente em tratamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergente</IRI>
+        <Literal>Paciente com risco imediato de perder a vida.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergência</IRI>
+        <Literal>Atendimento ambulatorial sem agendamento prévio, por motivo de necessidade urgente  emergente do paciente. Exemplo: atendimentos de parada cardíaca, fratura, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Encaminhamento</IRI>
+        <Literal>Origem do paciente, por exemplo se ele veio da emergência ou se é um paciente eletivo (que possui algum procedimento agendado).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Enfermaria</IRI>
+        <Literal>Unidades de internação genéricas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Enfermeiro</IRI>
+        <Literal>Funcionário responsável por um grupo de técnicos de enfermagem e pela supervisão dos cuidados de um grupo de pacientes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Especialidade</IRI>
+        <Literal>Representa a especialização médica que o médico possui ou que o paciente necessita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Especialista</IRI>
+        <Literal>Médicos com especializações em determinadas áreas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Estado</IRI>
+        <Literal>Representa estados de pacientes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Estável</IRI>
+        <Literal>Paciente em estado regular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Farmácia</IRI>
+        <Literal>Local onde os medicamentos e materiais médicos são armazenados e dispensados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Faxineiro</IRI>
+        <Literal>Funcionário responsável pela higienização das dependências do hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Funcionário</IRI>
+        <Literal>Pessoas contratadas pelo hospital para fazer os atendimentos aos pacientes e demais funções operacionais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Generalista</IRI>
+        <Literal>Médico com a especialização em Clínica Geral ou Saúde da Família ou até mesmo sem especialização que atende todos os tipos de doenças de todas as especialidades de pessoas de qualquer idade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grave</IRI>
+        <Literal>Paciente em estado grave.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gênero</IRI>
+        <Literal>Refere-se ao gênero do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hoje</IRI>
+        <Literal>Dia de hoje.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hora</IRI>
+        <Literal>Hora em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Idade</IRI>
+        <Literal>Refere-se á faixa etária do paciente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intervalo_De_Tempo</IRI>
+        <Literal>Período - intervalo de tmepo em que um evento ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Isolamento</IRI>
+        <Literal>Refere-se ao caso de o paciente precisar ficar isolado por algum motivo (ex. isolamento social, isolamento por bactéria de um certo tipo, etc).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Laudo</IRI>
+        <Literal>Documento formal, mais conhecido como resultado de um exame médico preenchido por um médico especialista.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Leito</IRI>
+        <Literal>Cama onde o paciente é internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Limpo</IRI>
+        <Literal>O leito foi higienizado e está apto para receber novo paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Livre</IRI>
+        <Literal>O leito está sem paciente internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Local</IRI>
+        <Literal>Lugares dentro de um hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maca</IRI>
+        <Literal>Acomodação temporária e móvel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Medicação</IRI>
+        <Literal>Remédios.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Muito_Urgente</IRI>
+        <Literal>Paciente com risco imediato de perda de membros ou de função de órgãos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Médico</IRI>
+        <Literal>Funcionários do hospital com diploma em Medicina, contratados para exercer a profissão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mês</IRI>
+        <Literal>Mês em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Móvel</IRI>
+        <Literal>Mobiliário pertencente ao hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Neurologista</IRI>
+        <Literal>Médico que trata dos distúrbios estruturais do sistema nervoso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Não_Urgente</IRI>
+        <Literal>Paciente sem risco imediato de agravo à saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ocupado</IRI>
+        <Literal>O leito possui um paciente internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Oncologista</IRI>
+        <Literal>Médico que estuda os cancros e a forma de como essas doenças se desenvolvem no organismo, procurando seu tratamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Paciente</IRI>
+        <Literal>Pessoa que está sendo atendida no hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pediatra</IRI>
+        <Literal>Que trata a saúde e os cuidados médicos dos infantes, das crianças, e dos adolescentes do nascimento até a idade de 18.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pediatria</IRI>
+        <Literal>Unidade dedicada à assistência à criança e ao adolescente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pessoa</IRI>
+        <Literal>Indivíduos que fazem parte do ecossistema hospitalar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pneumologista</IRI>
+        <Literal>Médico que estuda e investiga doenças relacionadas com o mecanismo do aparelho respiratório, e toda sua estrutura.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pouco_Urgente</IRI>
+        <Literal>Paciente com baixo risco de agravo imediato à saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prescrição</IRI>
+        <Literal>Rotina de cuidados com a saúde, implementadas por um médico ou outro profissional de saúde qualificado, voltadas para um paciente em específico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Profissional_De_Saúde</IRI>
+        <Literal>Funcionários do hospital que tratam especificamente da saúde do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prontuario_Do_Paciente</IRI>
+        <Literal>O documento único constituído de um conjunto de informações, sinais e imagens registradas, geradas a partir de fatos, acontecimentos e situações sobre a saúde do paciente e a assistência a ele prestada, de caráter legal, sigiloso e científico, que possibilita a comunicação entre membros da equipe multiprofissional e a continuidade da assistência prestada ao indivíduo (Resolução no 1.638/2002) e considerado de elaboração obrigatória pelo Código de Ética Médica (Artigo 69).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Puerpério</IRI>
+        <Literal>Refere-se ás pacientes que tiveram partos ou abortos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quarto</IRI>
+        <Literal>Local onde fica o leito onde o paciente é internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Radiologista</IRI>
+        <Literal>Médico que realizou residência médica em radiologia e diagnóstico por imagem. Possui conhecimentos gerais em anatomia humana, tecnologias, formação e interpretação de imagens radiológicas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recepcionista</IRI>
+        <Literal>Funcionário que faz o primeiro atendimento e cadastramento do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recepção</IRI>
+        <Literal>Local onde é feito o primeiro cadastro do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Residente</IRI>
+        <Literal>Médico em formação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Restrição</IRI>
+        <Literal>Restrições que podem ser consideradas no momento da alocação de leitos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sala</IRI>
+        <Literal>Locais onde os pacientes são atendidos em consultas ambulatoriais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Segurança</IRI>
+        <Literal>Funcionário que zela pela segurança patrimonial e física das pessoas que estão ho hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Semana</IRI>
+        <Literal>Semana em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sintoma</IRI>
+        <Literal>Sinais aos quais o paciente se refere quando fala da sua doença (dor, mal-estar, etc).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Situação</IRI>
+        <Literal>Representa a situação dos leitos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sujo</IRI>
+        <Literal>Leito precisa de higienização.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tempo_De_Permanência</IRI>
+        <Literal>Refere-se ao tempo que é previsto para o paciente ficar internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tipo_De_Atendimento</IRI>
+        <Literal>Refere-se ao tipo de atendimento que o paciente necessita (ex. cirúrgico ou clínico).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tipo_De_Cuidado</IRI>
+        <Literal>Refere-se ao tipo de cuidado de que o paciente necessita.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tratamento</IRI>
+        <Literal>Conjunto de instruções às quais o médico sugere que o paciente se submeta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Traumatologista</IRI>
+        <Literal>Médico especializado no tratamento e na reabilitação de traumas no sistema locomotor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Técnico_De_Enfermagem</IRI>
+        <Literal>Funcionário que trata dos cuidados e medicação do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UCE</IRI>
+        <Literal>Unidade de Cuidados Especiais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UTI</IRI>
+        <Literal>Unidade de Tratamento Intensivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Unidade_Internacao</IRI>
+        <Literal>Setores onde os pacientes ficam internados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Urgente</IRI>
+        <Literal>Paciente com condição que pode se agravar se não for atendido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vegetativo</IRI>
+        <Literal>Paciente está em estado vegetativo.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
