@@ -20,6 +20,11 @@ Você precisará ter instalado em seu computador:
 
 ## Criação de Ontologia usando Protégé
 
+A ontologia que será criada nesse tutorial é correspondente a imagem a seguir.
+
+![](src/resources/img/Ontologia.jpg)
+
+Abra o Protégé.
 
 ![](src/resources/img/TelaInicialProtege.jpg)
 
