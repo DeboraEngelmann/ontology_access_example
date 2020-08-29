@@ -1,6 +1,7 @@
 # Jason + Ontologias
 
-By [Débora Engelmann](https://github.com/DeboraEngelmann)
+By [Débora Engelmann](https://github.com/DeboraEngelmann) and
+[Rafael H. Bordini](https://github.com/rbordini)
 
 
 Você precisará ter instalado em seu computador:
